@@ -1,0 +1,13 @@
+node_modules/
+client/dist/
+.vite/
+*.log
+.DS_Store
+Thumbs.db
+
+# Blender's Python side
+__pycache__/
+*.py[cod]
+
+# Blender's own save backups
+*.blend1

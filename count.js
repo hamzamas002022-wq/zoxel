@@ -29,7 +29,7 @@
     sEl.textContent = pad(s);
 
     if (left === 0 && label) {
-      label.textContent = "29 September. that's the date.";
+      label.textContent = "01 October is here! Launch day!";
     }
   }
 
