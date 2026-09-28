@@ -21,6 +21,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         
+      - name: Force cache clear
+        run: echo "Clearing cache $(date)"
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
