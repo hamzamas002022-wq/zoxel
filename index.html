@@ -3,232 +3,81 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Zoxel - The next generation multiplayer platform. Built with Rust, Bevy, and TypeScript.">
-  <title>ZOXEL - Multiplayer Platform</title>
+  <title>who its zoxel?</title>
   <link rel="icon" href="favicon.png" type="image/png">
   <link rel="apple-touch-icon" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
   <link rel="stylesheet" href="site.css">
 </head>
 <body>
   <div class="shell">
-    <!-- Left Sidebar -->
-    <aside class="sidebar">
-      <div class="logo-container">
-        <img class="logo" src="zoxel-icon.png" alt="Zoxel Logo" width="120" height="120">
-        <h1>ZOXEL</h1>
-        <p class="tagline">Multiplayer Platform</p>
-      </div>
+    <aside class="side">
+      <img class="mark" src="zoxel-icon.png" alt="Zoxel" width="353" height="364">
+      <h1>who its<br>zoxel?</h1>
 
-
-
-      <!-- Tech Stack -->
-      <div class="tech-stack">
-        <p class="tech-label">Built with</p>
-        <div class="tech-icons">
-          <span class="tech-item" title="Rust">🦀</span>
-          <span class="tech-item" title="Bevy">🎮</span>
-          <span class="tech-item" title="TypeScript">📘</span>
-          <span class="tech-item" title="PostgreSQL">🐘</span>
-        </div>
-      </div>
-
-      <!-- Social Links -->
-      <div class="social-links">
-        <a href="https://github.com" class="social-link" target="_blank" rel="noopener">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-          </svg>
-        </a>
-        <a href="https://x.com" class="social-link" target="_blank" rel="noopener">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-          </svg>
-        </a>
+      <div class="count" data-until="2026-09-31T00:00:00">
+        <p class="count-label">31 September. counting down.</p>
+        <p class="count-nums">
+          <span data-d>0</span><small>d</small>
+          <span data-h>00</span><small>h</small>
+          <span data-m>00</span><small>m</small>
+          <span data-s>00</span><small>s</small>
+        </p>
       </div>
     </aside>
 
-    <!-- Main Content -->
     <main class="main">
-      <!-- Hero Section -->
-      <section class="hero">
-        <div class="hero-badge">🚀 Now in Development</div>
-        <h2 class="hero-title">The Future of<br><span class="gradient-text">Multiplayer Gaming</span></h2>
-        <p class="hero-description">
-          Zoxel is a next-generation multiplayer platform where you can create, play, and connect with others in real-time. Built from the ground up with modern technologies.
-        </p>
-        <div class="hero-buttons">
-          <a href="#about" class="btn btn-primary">Learn More</a>
-          <a href="#roadmap" class="btn btn-secondary">View Roadmap</a>
-        </div>
-      </section>
+      <p>Hi. This is Zoxel. Roblox-style platform. You join, you play, you chat. Studio is later. We haven't built that yet.</p>
 
-      <!-- About Section -->
-      <section id="about" class="section">
-        <h2 class="section-title">About Zoxel</h2>
-        <div class="about-content">
-          <p>
-            Zoxel isn't just another game platform. We're building something fresh, something different. 
-            No Roblox assets. No Roblox name. Just pure, creative gameplay.
-          </p>
-          <p>
-            Join a server, chat with friends, and start building your world. Our client runs on Rust with 
-            the Bevy game engine, delivering smooth 60+ FPS gameplay.
-          </p>
-        </div>
-      </section>
+      <p>Not the old Deus game from itch.io. Not Godot. Live client is Rust + Bevy. Run it with <code>cargo run -p zoxel-client</code>. Website is TypeScript. Scripts later, Luau. Saves go in PostgreSQL.</p>
 
-      <!-- Tech Section -->
-      <section class="section">
-        <h2 class="section-title">Technology</h2>
-        <div class="tech-grid">
-          <div class="tech-card">
-            <div class="tech-icon">🦀</div>
-            <h3>Rust</h3>
-            <p>Performance-first game engine</p>
-          </div>
-          <div class="tech-card">
-            <div class="tech-icon">🎮</div>
-            <h3>Bevy</h3>
-            <p>Modern ECS game framework</p>
-          </div>
-          <div class="tech-card">
-            <div class="tech-icon">📘</div>
-            <h3>TypeScript</h3>
-            <p>Type-safe web applications</p>
-          </div>
-          <div class="tech-card">
-            <div class="tech-icon">🐘</div>
-            <h3>PostgreSQL</h3>
-            <p>Relational database</p>
-          </div>
-        </div>
-      </section>
+      <p>Studio is a stub. wear_item, chat_filter, join_server are stubs. They didn't ship. Hats don't work.</p>
 
-      <!-- Roadmap Section -->
-      <section id="roadmap" class="section">
-        <h2 class="section-title">Roadmap</h2>
-        <div class="roadmap">
-          <div class="roadmap-item">
-            <div class="roadmap-date">Q1 2026</div>
-            <div class="roadmap-content">
-              <h3>Closed Tests</h3>
-              <p>Windows only, core functionality testing</p>
-            </div>
-          </div>
-          <div class="roadmap-item">
-            <div class="roadmap-date">Q2 2026</div>
-            <div class="roadmap-content">
-              <h3>First Public Play Test</h3>
-              <p>Initial public testing, server infrastructure</p>
-            </div>
-          </div>
-          <div class="roadmap-item">
-            <div class="roadmap-date">Q3 2026</div>
-            <div class="roadmap-content">
-              <h3>Website & Devlogs</h3>
-              <p>Website launch, profiles, first public devlogs</p>
-            </div>
-          </div>
-          <div class="roadmap-item">
-            <div class="roadmap-date">Q4 2026</div>
-            <div class="roadmap-content">
-              <h3>Bigger Play Test</h3>
-              <p>Expanded testing, still no iPad support</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <p>Trying to put this out in 2026. 31 September is the date. 5 days.</p>
 
-      <!-- Features Section -->
-      <section class="section">
-        <h2 class="section-title">Features</h2>
-        <div class="features-grid">
-          <div class="feature-card">
-            <div class="feature-number">01</div>
-            <h3>Real-time Multiplayer</h3>
-            <p>Play with friends in real-time with sub-100ms latency</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-number">02</div>
-            <h3>Custom Building</h3>
-            <p>Create your own worlds with intuitive building tools</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-number">03</div>
-            <h3>Chat & Social</h3>
-            <p>Communicate with voice and text chat</p>
-          </div>
-          <div class="feature-card">
-            <div class="feature-number">04</div>
-            <h3>Safe Environment</h3>
-            <p>Advanced moderation and safety features</p>
-          </div>
-        </div>
-      </section>
+      <dl class="times">
+        <dt>2026 Q1</dt>
+        <dd>closed tests, Windows only</dd>
+        <dt>2026 Q2</dt>
+        <dd>first public play test</dd>
+        <dt>2026 Q3</dt>
+        <dd>website, profiles, first public devlogs</dd>
+        <dt>2026 Q4</dt>
+        <dd>bigger play test. still no iPad</dd>
+      </dl>
 
-      <!-- FAQ Section -->
-      <section class="section">
-        <h2 class="section-title">FAQ</h2>
-        <div class="faq">
-          <div class="faq-item">
-            <h3 class="faq-question">When will Zoxel launch?</h3>
-            <p class="faq-answer">We're targeting Q3 2026 for our website and devlogs launch, with bigger play tests in Q4 2026. You can stay updated by following our social media.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">What platforms will Zoxel support?</h3>
-            <p class="faq-answer">We'll start with Windows, then expand to macOS, Linux, and eventually mobile devices including iOS and Android.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">Is Zoxel free to play?</h3>
-            <p class="faq-answer">Yes! Zoxel will be free to play with optional in-game purchases for premium items and features.</p>
-          </div>
-          <div class="faq-item">
-            <h3 class="faq-question">How do I get involved?</h3>
-            <p class="faq-answer">Join our Discord community, follow our social media, and sign up for our newsletter to get the latest updates.</p>
-          </div>
-        </div>
-      </section>
+      <p>Want more Roblox clones? Click <a href="https://index.open-sbc.org/">OpenSBC</a>. We support OpenSBC.</p>
 
-      <!-- CTA Section -->
-      <section class="cta-section">
-        <h2>Ready to Play?</h2>
-        <p>Join the waitlist and be the first to know when we launch</p>
-        <div class="cta-form">
-          <input type="email" placeholder="Enter your email" class="email-input">
-          <button class="cta-button">Join Waitlist</button>
-        </div>
-        <p class="cta-note">No spam, just updates. Unsubscribe anytime.</p>
-      </section>
+      <p>That's a list. Not us. We make our own game. No Roblox assets. No Roblox name.</p>
 
-      <!-- Footer -->
-      <footer class="footer">
-        <div class="footer-content">
-          <div class="footer-logo">
-            <img src="zoxel-icon.png" alt="Zoxel" width="40" height="40">
-            <span>ZOXEL</span>
-          </div>
-          <div class="footer-links">
-            <a href="#about">About</a>
-            <a href="#roadmap">Roadmap</a>
-            <a href="#features">Features</a>
-            <a href="#faq">FAQ</a>
-          </div>
-          <div class="footer-social">
-            <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
-            <a href="https://x.com" target="_blank" rel="noopener">X</a>
-            <a href="https://discord.com" target="_blank" rel="noopener">Discord</a>
-          </div>
+      <h2>Q&amp;A</h2>
+
+      <div class="qa">
+        <div>
+          <p class="q">Q: you are use vscode?</p>
+          <p class="a">A: Yes. We use VS Code. We can build the client from there.</p>
         </div>
-        <div class="footer-bottom">
-          <p>&copy; 2026 Zoxel. All rights reserved.</p>
+        <div>
+          <p class="q">Q: you do have dev friend builder</p>
+          <p class="a">A: No. Sorry. We don't have extra builder friends right now. It's a small team.</p>
         </div>
-      </footer>
+        <div>
+          <p class="q">Q: what your use programming</p>
+          <p class="a">A: C++, Python, React, Go, TypeScript, Luau, Rust. Main live path is still Rust for the game, TypeScript for the site, Luau for scripts later. C++, Python, React, and Go are tools / extras, not a second game engine.</p>
+        </div>
+        <div>
+          <p class="q">Q: you are try devlogs 1 in youtube?</p>
+          <p class="a">A: Yes. Devlog 1 is planned for YouTube. It's not up yet. It goes up when we actually have something to show.</p>
+        </div>
+      </div>
+
+      <p class="end">We are still early, Studio is not ready, come back when the Windows client is stable.</p>
+
+      <img class="face" src="zoxelface.jpg" alt="" width="1077" height="913">
     </main>
   </div>
-
   <script src="count.js"></script>
 </body>
 </html>
