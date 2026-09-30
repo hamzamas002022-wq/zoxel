@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zoxel — Roblox-style brick multiplayer game</title>
+  <link rel="icon" href="favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=IBM+Plex+Sans:wght@400;600;700&display=swap">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <img class="mark" src="zoxelprofile.png" alt="" width="353" height="364">
+      <h1>Zoxel</h1>
+      
+      <div class="count" data-until="2026-09-29T00:00:00">
+        <p class="count-label">29 September. counting down.</p>
+        <p class="count-nums">
+          <span data-d>0</span><small>d</small>
+          <span data-h>00</span><small>h</small>
+          <span data-m>00</span><small>m</small>
+          <span data-s>00</span><small>s</small>
+        </p>
+      </div>
+    </aside>
+
+    <main class="main">
+      <p>Zoxel is a Roblox-style voxel multiplayer platform. You join, you play, you chat. Studio tools come later.</p>
+
+      <p>Live client: Rust + Bevy . Run with cargo run -p zoxel-client . Website: TypeScript . Scripting later: Luau . Backend: PostgreSQL .</p>
+
+      <p>Not the old Deus game from itch.io. Not Godot. We build our own engine, our own assets, our own game.</p>
+
+      <h2>Roadmap</h2>
+
+      <dl class="times">
+        <dt>2026 Q1</dt>
+        <dd>Closed tests, Windows only</dd>
+        <dt>2026 Q2</dt>
+        <dd>First public playtest</dd>
+        <dt>2026 Q3</dt>
+        <dd>Website, profiles, devlogs</dd>
+        <dt>2026 Q4</dt>
+        <dd>Larger playtest, no iPad yet</dd>
+      </dl>
+
+      <h2>Q&A</h2>
+
+      <p>More Roblox-style projects: <a href="https://index.open-sbc.org/">OpenSBC</a> (we support OpenSBC)</p>
+
+      <div class="qa">
+        <div>
+          <p class="q">Q: What editor do you use?</p>
+          <p class="a">A: VS Code. We build the client from there.</p>
+        </div>
+        <div>
+          <p class="q">Q: Looking for devs/builders?</p>
+          <p class="a">A: Not right now. Small team.</p>
+        </div>
+        <div>
+          <p class="q">Q: Tech stack?</p>
+          <p class="a">A: Rust (game), TypeScript (site), Luau (scripts later). C++, Python, Go for tools.</p>
+        </div>
+      </div>
+
+      <p class="end">Early stage. Studio not ready. Come back when the Windows client is stable.</p>
+
+      <img class="face" src="zoxelface.jpg" alt="" width="1077" height="913">
+    </main>
+  </div>
+  <script src="count.js"></script>
+</body>
+</html>
